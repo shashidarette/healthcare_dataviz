@@ -1,0 +1,158 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Orange Report</title>
+
+    <style>
+    html, body, table {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        margin:0px;
+        padding:0;
+        border:0 none;
+    }
+
+    h1, h2 , h3, h4, h5 {
+       padding: 1px;
+       font-size:100%;
+    }
+
+    h1 {
+        color: white;
+        background-color: black;
+        padding: 4px;
+        margin-top: 12px;
+        margin-bottom: 6px;
+    }
+
+    h2 {
+        border-bottom: 1px solid black;
+        padding-left: 2px;
+    }
+
+    ul, table, p {
+        padding: 10px;
+    }
+
+    table {
+        margin-left: -6px;
+    }
+
+    span.timestamp {
+        position: absolute;
+        right: 40px;
+        color:#ddd;
+    }
+
+    div.selected, div.normal {
+        margin: 5px;
+    }
+
+    div.selected {
+        background: #ddd;
+    }
+    @media print{
+        div.selected {
+            background: inherit;
+        }
+        ::-webkit-input-placeholder {
+            color: transparent;
+        }
+    }
+
+    div.content {
+        margin-left: 15px;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 2px 6px 2px 6px;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    @media screen {
+        td, th {
+            white-space: nowrap;
+        }
+    }
+
+    .caption {
+        text-align: center;
+        font-size: 90%;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        max-height: 20cm;
+    }
+
+    span.legend-square {
+        width: 1em;
+        height: 1em;
+        margin-right: 6px;
+        display: inline-block;
+    }
+
+    span.legend-item {
+        margin-right: 24px;
+    }
+
+    textarea {
+        border: 1px solid silver;
+        font-style: italic;
+        width: 100%;
+        height: 4em;
+    }
+
+    .textwrapper {
+        padding: 15px;
+    }
+
+    div.normal textarea:invalid {
+        display: none;
+    }
+
+    div.selected textarea {
+        display: block;
+    }
+
+    @media print{
+        section.section, img {
+            page-break-inside: avoid;
+        }
+    }
+    </style>
+
+
+</head><body>
+
+ 
+
+<div id="2344567947768" class="normal" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Test &amp; Score <span class="timestamp">Mon May 14 18, 16:13:41</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Sampling type:</b> No sampling, test on training data<br></ul><h2>Scores</h2><table>
+<tbody><tr><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Method</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">RMSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MAE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">R2</th></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Linear Regression</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">6.335</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.517</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">1.650</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.603</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">SVM</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">24.287</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">4.928</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.946</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">-0.522</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Random Forest</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.048</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">1.431</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.806</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.872</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">kNN</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">7.443</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.728</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">1.621</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.533</td></tr></tbody></table></div></section>
+
+<div class="textwrapper"><textarea placeholder="Write a comment..." oninput="this.innerHTML = this.value;pybridge._add_comment(this.parentNode.parentNode.id, this.value);"></textarea></div></div><div id="2344567948056" class="normal" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Test &amp; Score <span class="timestamp">Mon May 14 18, 16:13:48</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Sampling type:</b> No sampling, test on testing data<br></ul><h2>Scores</h2><table>
+<tbody><tr><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Method</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">RMSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MAE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">R2</th></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Linear Regression</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">7.391</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.719</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">1.707</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.470</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">SVM</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">22.316</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">4.724</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.930</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">-0.600</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Random Forest</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">8.247</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.872</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">1.798</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.409</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">kNN</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">10.018</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.165</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.070</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.282</td></tr></tbody></table></div></section>
+
+<div class="textwrapper"><textarea placeholder="Write a comment..." oninput="this.innerHTML = this.value;pybridge._add_comment(this.parentNode.parentNode.id, this.value);"></textarea></div></div><div id="2344351930264" class="normal" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Test &amp; Score <span class="timestamp">Mon May 14 18, 16:45:44</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Sampling type:</b> No sampling, test on training data<br></ul><h2>Scores</h2><table>
+<tbody><tr><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Method</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">RMSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MAE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">R2</th></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Linear Regression</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">9.531</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.087</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.136</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.381</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">SVM</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">24.864</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">4.986</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.860</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">-0.615</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">kNN</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">7.483</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.736</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">1.836</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.514</td></tr></tbody></table></div></section>
+
+<div class="textwrapper"><textarea placeholder="Write a comment..." oninput="this.innerHTML = this.value;pybridge._add_comment(this.parentNode.parentNode.id, this.value);"></textarea></div></div><div id="2344351928824" class="normal" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Test &amp; Score <span class="timestamp">Mon May 14 18, 16:45:52</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Sampling type:</b> No sampling, test on testing data<br></ul><h2>Scores</h2><table>
+<tbody><tr><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Method</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">RMSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MAE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">R2</th></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Linear Regression</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">11.883</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.447</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.196</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.239</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">SVM</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">25.880</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">5.087</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.951</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">-0.657</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">kNN</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">12.957</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.600</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.328</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.170</td></tr></tbody></table></div></section>
+
+<div class="textwrapper"><textarea placeholder="Write a comment..." oninput="this.innerHTML = this.value;pybridge._add_comment(this.parentNode.parentNode.id, this.value);"></textarea></div></div><div id="2344348439320" class="normal" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Test &amp; Score <span class="timestamp">Mon May 14 18, 16:48:05</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Sampling type:</b> No sampling, test on training data<br></ul><h2>Scores</h2><table>
+<tbody><tr><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Method</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">RMSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MAE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">R2</th></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Linear Regression</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">10.322</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.213</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.145</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.342</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">SVM</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">22.537</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">4.747</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.591</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">-0.437</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">kNN</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">8.003</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.829</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">1.863</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.490</td></tr></tbody></table></div></section>
+
+<div class="textwrapper"><textarea placeholder="Write a comment..." oninput="this.innerHTML = this.value;pybridge._add_comment(this.parentNode.parentNode.id, this.value);"></textarea></div></div><div id="2344397749272" class="normal" onclick="pybridge._select_item(this.id)"><section class="section"><h1>Test &amp; Score <span class="timestamp">Mon May 14 18, 16:48:09</span></h1><div class="content">
+<h2>Settings</h2><ul><b>Sampling type:</b> No sampling, test on testing data<br></ul><h2>Scores</h2><table>
+<tbody><tr><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Method</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">RMSE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">MAE</th><th style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">R2</th></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">Linear Regression</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">8.062</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.839</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.126</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.396</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">SVM</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">19.963</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">4.468</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.539</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">-0.496</td></tr><tr><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">kNN</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">9.043</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">3.007</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">2.236</td><td style="color:black;border:0;background:transparent;text-align:left;vertical-align:middle;">0.323</td></tr></tbody></table></div></section>
+
+<div class="textwrapper"><textarea placeholder="Write a comment..." oninput="this.innerHTML = this.value;pybridge._add_comment(this.parentNode.parentNode.id, this.value);"></textarea></div></div></body></html>

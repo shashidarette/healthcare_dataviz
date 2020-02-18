@@ -1,0 +1,1 @@
+Please upzip T201712PDPI+BNFT.zip file to get Prescription data for Dec 2017.

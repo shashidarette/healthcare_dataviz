@@ -1,0 +1,8 @@
+0601021* Oral hypoglycaemics
+0601022* Metformin
+0601023* Gliptins
+0601023AKAAA * Alogliptin - costlier options
+0601011* Insulin
+0601012*Insulin
+
+0704050* Viagra and others
