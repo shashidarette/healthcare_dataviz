@@ -1,0 +1,234 @@
+﻿<!-- Focus groups HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Bootstrap select -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Application scripts -->
+    <script src="costs.js"></script>
+    <script src="focusGroup.js"></script>
+    <script src="drugGroups.js"></script>
+    <script src="utils.js"></script>
+    <script src="gpProfiles.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row content">
+            <br />
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-3 well">
+                        <div id="focus_group_1" class="list-group" role="tablist">
+                            <!-- Group 1 -->
+                            <ul class="list-group">
+                                <li class="list-group-item active">GP related information</li>
+                                <li class="list-group-item">
+                                    <b>Practice Code:</b><div id="practice_code"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>PracticeName:</b><div id="name"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>TotalSize: </b><div id="totalSize"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Area Code and Name: </b><div id="areacode"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Average Age: </b> <div id="avgage"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>% aged 65+ years: </b> <div id="avg65age"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Diabetic Patient Count:</b> <div id="pcount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Hypertension Patient Count:</b><div id="hypPCount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>IMD:</b> <div id="imd"> </div>
+                                </li>
+                            </ul>
+                            <div id="age_demographic">
+                                <!-- Age distribution plot -->
+                            </div>
+                            <div id="health_indicators">
+                                <!-- Health indicators radar plot -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 well ">
+                        <div id="focus_group_2" class="list-group" role="tablist">
+                            <!-- Group 2 -->
+                            <ul class="list-group">
+                                <li class="list-group-item active">GP related information</li>
+                                <li class="list-group-item">
+                                    <b>Practice Code:</b><div id="practice_code"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>PracticeName:</b><div id="name"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>TotalSize: </b><div id="totalSize"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Area Code and Name: </b><div id="areacode"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Average Age: </b> <div id="avgage"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>% aged 65+ years: </b> <div id="avg65age"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Diabetic Patient Count:</b> <div id="pcount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Hypertension Patient Count:</b><div id="hypPCount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>IMD:</b> <div id="imd"> </div>
+                                </li>
+                            </ul>
+                            <div id="age_demographic">
+                                <!-- Age distribution plot -->
+                            </div>
+                            <div id="health_indicators">
+                                <!-- Health indicators radar plot -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 well">
+                        <div id="focus_group_3" class="list-group" role="tablist">
+                            <!-- Group 3 -->
+                            <ul class="list-group">
+                                <li class="list-group-item active">GP related information</li>
+                                <li class="list-group-item">
+                                    <b>Practice Code:</b><div id="practice_code"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>PracticeName:</b><div id="name"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>TotalSize: </b><div id="totalSize"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Area Code and Name: </b><div id="areacode"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Average Age: </b> <div id="avgage"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>% aged 65+ years: </b> <div id="avg65age"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Diabetic Patient Count:</b> <div id="pcount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Hypertension Patient Count:</b><div id="hypPCount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>IMD:</b> <div id="imd"> </div>
+                                </li>
+                            </ul>
+                            <div id="age_demographic">
+                                <!-- Age distribution plot -->
+                            </div>
+                            <div id="health_indicators">
+                                <!-- Health indicators radar plot -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 well">
+                        <div id="focus_group_4" class="list-group" role="tablist">
+                            <!-- Group 4 -->
+                            <ul class="list-group">
+                                <li class="list-group-item active">GP related information</li>
+                                <li class="list-group-item">
+                                    <b>Practice Code:</b><div id="practice_code"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>PracticeName:</b><div id="name"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>TotalSize: </b><div id="totalSize"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Area Code and Name: </b><div id="areacode"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Average Age: </b> <div id="avgage"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>% aged 65+ years: </b> <div id="avg65age"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Diabetic Patient Count:</b> <div id="pcount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Hypertension Patient Count:</b><div id="hypPCount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>IMD:</b> <div id="imd"> </div>
+                                </li>
+                            </ul>
+                            <div id="age_demographic">
+                                <!-- Age distribution plot -->
+                            </div>
+                            <div id="health_indicators">
+                                <!-- Health indicators radar plot -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Place holder for visualization -->
+                    <div class="col-sm-12 well">
+                        <ul class="list-group col-sm-12">
+                            <li class="list-group-item active">
+                                Detailed costs for each BNF Chapter
+                            </li>
+                        </ul>
+                        <div id="2DDetailedCostsDiv" style="height:400px" class="col-sm-9">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Place holder for visualization -->
+                    <div class="col-sm-12 well">
+                        <ul class="list-group col-sm-12">
+                            <li class="list-group-item active">Detailed costs for selected drug groups</li>
+                        </ul>
+                        <div class="col-sm-3">
+                            <label class="control-label">DrugGroups</label>
+                            <div class="selectContainer">
+                                <select id="fg_drug_groups" name="fgDrugGroup" data-width="auto" class="selectpicker" multiple title="Choose required drug groups...">
+                                    <!-- Place-holder for drug group parameters from datasets -->
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <br />
+                            <button type="button" class="btn btn-primary" onclick="btnUpdateDrugGroupSelection(this)">Update</button>
+                        </div>
+                        <div id="2DSubChapterCostsDiv" style="height:400px" class="col-sm-9">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

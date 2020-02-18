@@ -1,0 +1,77 @@
+﻿<!-- HOME HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- contains home page related client handling -->
+    <script src="home.js"></script>
+    <!-- contains search related handling -->
+    <script src="search.js"></script>
+    <script src="gpProfiles.js"></script>
+    <style>
+        /*.jumbotron 
+        {
+            background-color: #B92034 !important;
+        }
+        .jumbotron h1{
+            color: #fff;
+        }
+        .jumbotron h2{
+            color: #fff;
+        }
+        .jumbotron p{
+            color: #fff;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row content">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="input-group  input-group-lg">
+                        <input id="search_string" type="text" class="form-control" style="width:100%" placeholder="Search for a General Practise or a Clinical Commissioning Group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button" onclick="onSearchClick(this)">Search</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="welcome_msg" class="jumbotron">
+                <h1>HealthcareDataViz</h1>
+                <h2>Welcome to Healthcare data visualization for UK!</h2>
+                <p class="lead">
+                    This website helps personnel in General Practices to understand and discover prescription costs.
+                    It provides intuitive way to visualize the data.
+                    A user can search a GP to view it's profiles or add it to a focus group for analysing the prescription costs further.
+                    Prescription costs can be explored at BNF Chapters level (together) or at a specific drug group level.
+                </p>
+                <b>The organization and spending api is provided by "OpenPrescribing.net, EBM DataLab, University of Oxford, 2017".</b>
+                <p>
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div id="search_list" class="list-group">
+                        <!-- Placeholder for Search Results -->
+                    </div>
+                </div>
+                <div id="focus_group_div"  class="col-lg-3">
+                    <ul  id="focus_group" class="list-group">
+                        <li class="list-group-item active">Focus group</li>
+                        <!-- Placeholder for focus group -->
+                    </ul>
+                    <button class="btn btn-primary" type="button" onclick="onViewFocusGroup(this)">View Focus Group</button>
+                </div>
+            </div>
+            </div>
+        </div>
+</body>
+</html>

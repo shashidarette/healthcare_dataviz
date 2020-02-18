@@ -1,0 +1,1748 @@
+[
+    {
+        "code": "03D",
+        "type": "CCG",
+        "name": "NHS HAMBLETON, RICHMONDSHIRE AND WHITBY CCG",
+        "id": "03D"
+    },
+    {
+        "code": "06Q",
+        "type": "CCG",
+        "name": "NHS MID ESSEX CCG",
+        "id": "06Q"
+    },
+    {
+        "code": "11A",
+        "type": "CCG",
+        "name": "NHS WEST HAMPSHIRE CCG",
+        "id": "11A"
+    },
+    {
+        "code": "11M",
+        "type": "CCG",
+        "name": "NHS GLOUCESTERSHIRE CCG",
+        "id": "11M"
+    },
+    {
+        "code": "11N",
+        "type": "CCG",
+        "name": "NHS KERNOW CCG",
+        "id": "11N"
+    },
+    {
+        "code": "99P",
+        "type": "CCG",
+        "name": "NHS NORTHERN, EASTERN AND WESTERN DEVON CCG",
+        "id": "99P"
+    },
+    {
+        "code": "00R",
+        "type": "CCG",
+        "name": "NHS BLACKPOOL CCG",
+        "id": "00R"
+    },
+    {
+        "code": "00K",
+        "type": "CCG",
+        "name": "NHS HARTLEPOOL AND STOCKTON-ON-TEES CCG",
+        "id": "00K"
+    },
+    {
+        "code": "00T",
+        "type": "CCG",
+        "name": "NHS BOLTON CCG",
+        "id": "00T"
+    },
+    {
+        "code": "01K",
+        "type": "CCG",
+        "name": "NHS MORECAMBE BAY CCG",
+        "id": "01K"
+    },
+    {
+        "code": "03T",
+        "type": "CCG",
+        "name": "NHS LINCOLNSHIRE EAST CCG",
+        "id": "03T"
+    },
+    {
+        "code": "01T",
+        "type": "CCG",
+        "name": "NHS SOUTH SEFTON CCG",
+        "id": "01T"
+    },
+    {
+        "code": "05N",
+        "type": "CCG",
+        "name": "NHS SHROPSHIRE CCG",
+        "id": "05N"
+    },
+    {
+        "code": "02A",
+        "type": "CCG",
+        "name": "NHS TRAFFORD CCG",
+        "id": "02A"
+    },
+    {
+        "code": "01X",
+        "type": "CCG",
+        "name": "NHS ST HELENS CCG",
+        "id": "01X"
+    },
+    {
+        "code": "06L",
+        "type": "CCG",
+        "name": "NHS IPSWICH AND EAST SUFFOLK CCG",
+        "id": "06L"
+    },
+    {
+        "code": "06P",
+        "type": "CCG",
+        "name": "NHS LUTON CCG",
+        "id": "06P"
+    },
+    {
+        "code": "07J",
+        "type": "CCG",
+        "name": "NHS WEST NORFOLK CCG",
+        "id": "07J"
+    },
+    {
+        "code": "01E",
+        "type": "CCG",
+        "name": "NHS GREATER PRESTON CCG",
+        "id": "01E"
+    },
+    {
+        "code": "00D",
+        "type": "CCG",
+        "name": "NHS DURHAM DALES, EASINGTON AND SEDGEFIELD CCG",
+        "id": "00D"
+    },
+    {
+        "code": "5K5",
+        "type": "CCG",
+        "name": "Brent Teaching",
+        "id": "5K5"
+    },
+    {
+        "code": "5K8",
+        "type": "CCG",
+        "name": "Islington",
+        "id": "5K8"
+    },
+    {
+        "code": "5KG",
+        "type": "CCG",
+        "name": "South Tyneside",
+        "id": "5KG"
+    },
+    {
+        "code": "5L1",
+        "type": "CCG",
+        "name": "Southampton City",
+        "id": "5L1"
+    },
+    {
+        "code": "5LA",
+        "type": "CCG",
+        "name": "Kensington and Chelsea",
+        "id": "5LA"
+    },
+    {
+        "code": "5LF",
+        "type": "CCG",
+        "name": "Lewisham",
+        "id": "5LF"
+    },
+    {
+        "code": "5LQ",
+        "type": "CCG",
+        "name": "Brighton and Hove City",
+        "id": "5LQ"
+    },
+    {
+        "code": "5M2",
+        "type": "CCG",
+        "name": "Shropshire County",
+        "id": "5M2"
+    },
+    {
+        "code": "5M6",
+        "type": "CCG",
+        "name": "Richmond and Twickenham",
+        "id": "5M6"
+    },
+    {
+        "code": "5MD",
+        "type": "CCG",
+        "name": "Coventry Teaching",
+        "id": "5MD"
+    },
+    {
+        "code": "5MV",
+        "type": "CCG",
+        "name": "Wolverhampton City",
+        "id": "5MV"
+    },
+    {
+        "code": "5N2",
+        "type": "CCG",
+        "name": "Kirklees",
+        "id": "5N2"
+    },
+    {
+        "code": "5N5",
+        "type": "CCG",
+        "name": "Doncaster",
+        "id": "5N5"
+    },
+    {
+        "code": "5N7",
+        "type": "CCG",
+        "name": "Derby City",
+        "id": "5N7"
+    },
+    {
+        "code": "5N9",
+        "type": "CCG",
+        "name": "Lincolnshire Teaching",
+        "id": "5N9"
+    },
+    {
+        "code": "5ND",
+        "type": "CCG",
+        "name": "County Durham",
+        "id": "5ND"
+    },
+    {
+        "code": "5NF",
+        "type": "CCG",
+        "name": "North Lancashire Teaching",
+        "id": "5NF"
+    },
+    {
+        "code": "5NH",
+        "type": "CCG",
+        "name": "East Lancashire Teaching",
+        "id": "5NH"
+    },
+    {
+        "code": "5NM",
+        "type": "CCG",
+        "name": "Halton and St Helens",
+        "id": "5NM"
+    },
+    {
+        "code": "5NP",
+        "type": "CCG",
+        "name": "Central and Eastern Cheshire",
+        "id": "5NP"
+    },
+    {
+        "code": "5NR",
+        "type": "CCG",
+        "name": "Trafford",
+        "id": "5NR"
+    },
+    {
+        "code": "5NW",
+        "type": "CCG",
+        "name": "East Riding of Yorkshire",
+        "id": "5NW"
+    },
+    {
+        "code": "5NY",
+        "type": "CCG",
+        "name": "Bradford and Airedale Teaching",
+        "id": "5NY"
+    },
+    {
+        "code": "5P6",
+        "type": "CCG",
+        "name": "West Sussex",
+        "id": "5P6"
+    },
+    {
+        "code": "5P8",
+        "type": "CCG",
+        "name": "Hastings and Rother",
+        "id": "5P8"
+    },
+    {
+        "code": "5PA",
+        "type": "CCG",
+        "name": "Leicestershire County and Rutland",
+        "id": "5PA"
+    },
+    {
+        "code": "5PE",
+        "type": "CCG",
+        "name": "Dudley",
+        "id": "5PE"
+    },
+    {
+        "code": "5PG",
+        "type": "CCG",
+        "name": "Birmingham East and North",
+        "id": "5PG"
+    },
+    {
+        "code": "5PK",
+        "type": "CCG",
+        "name": "South Staffordshire",
+        "id": "5PK"
+    },
+    {
+        "code": "5PN",
+        "type": "CCG",
+        "name": "Peterborough",
+        "id": "5PN"
+    },
+    {
+        "code": "5PR",
+        "type": "CCG",
+        "name": "Great Yarmouth and Waveney",
+        "id": "5PR"
+    },
+    {
+        "code": "5PW",
+        "type": "CCG",
+        "name": "North East Essex",
+        "id": "5PW"
+    },
+    {
+        "code": "5PY",
+        "type": "CCG",
+        "name": "South West Essex",
+        "id": "5PY"
+    },
+    {
+        "code": "5QD",
+        "type": "CCG",
+        "name": "Buckinghamshire",
+        "id": "5QD"
+    },
+    {
+        "code": "5QF",
+        "type": "CCG",
+        "name": "Berkshire West",
+        "id": "5QF"
+    },
+    {
+        "code": "5QJ",
+        "type": "CCG",
+        "name": "Bristol",
+        "id": "5QJ"
+    },
+    {
+        "code": "5QM",
+        "type": "CCG",
+        "name": "Dorset",
+        "id": "5QM"
+    },
+    {
+        "code": "5QP",
+        "type": "CCG",
+        "name": "Cornwall and Isles of Scilly",
+        "id": "5QP"
+    },
+    {
+        "code": "5QT",
+        "type": "CCG",
+        "name": "Isle of Wight National Health Service",
+        "id": "5QT"
+    },
+    {
+        "code": "5NT",
+        "type": "CCG",
+        "name": "Manchester Teaching",
+        "id": "5NT"
+    },
+    {
+        "code": "TAC",
+        "type": "CCG",
+        "name": "Northumberland",
+        "id": "TAC"
+    },
+    {
+        "code": "TAK",
+        "type": "CCG",
+        "name": "Bexley",
+        "id": "TAK"
+    },
+    {
+        "code": "TAL",
+        "type": "CCG",
+        "name": "Torbay",
+        "id": "TAL"
+    },
+    {
+        "code": "TAN",
+        "type": "CCG",
+        "name": "North East Lincolnshire",
+        "id": "TAN"
+    },
+    {
+        "code": "TAP",
+        "type": "CCG",
+        "name": "Blackburn with Darwen Teaching",
+        "id": "TAP"
+    },
+    {
+        "code": "09H",
+        "type": "CCG",
+        "name": "NHS CRAWLEY CCG",
+        "id": "09H"
+    },
+    {
+        "code": "00J",
+        "type": "CCG",
+        "name": "NHS NORTH DURHAM CCG",
+        "id": "00J"
+    },
+    {
+        "code": "03H",
+        "type": "CCG",
+        "name": "NHS NORTH EAST LINCOLNSHIRE CCG",
+        "id": "03H"
+    },
+    {
+        "code": "03J",
+        "type": "CCG",
+        "name": "NHS NORTH KIRKLEES CCG",
+        "id": "03J"
+    },
+    {
+        "code": "00P",
+        "type": "CCG",
+        "name": "NHS SUNDERLAND CCG",
+        "id": "00P"
+    },
+    {
+        "code": "01G",
+        "type": "CCG",
+        "name": "NHS SALFORD CCG",
+        "id": "01G"
+    },
+    {
+        "code": "01J",
+        "type": "CCG",
+        "name": "NHS KNOWSLEY CCG",
+        "id": "01J"
+    },
+    {
+        "code": "13N",
+        "type": "CCG",
+        "name": "WESSEX COMMISSIONING HUB",
+        "id": "13N"
+    },
+    {
+        "code": "13V",
+        "type": "CCG",
+        "name": "YORKSHIRE AND HUMBER COMMISSIONING HUB",
+        "id": "13V"
+    },
+    {
+        "code": "13W",
+        "type": "CCG",
+        "name": "LANCASHIRE AND GREATER MANCHESTER COMMISSIONING HUB",
+        "id": "13W"
+    },
+    {
+        "code": "14J",
+        "type": "CCG",
+        "name": "GREATER MANCHESTER COMMISSIONING HUB",
+        "id": "14J"
+    },
+    {
+        "code": "01R",
+        "type": "CCG",
+        "name": "NHS SOUTH CHESHIRE CCG",
+        "id": "01R"
+    },
+    {
+        "code": "13Q",
+        "type": "CCG",
+        "name": "NATIONAL COMMISSIONING HUB 1",
+        "id": "13Q"
+    },
+    {
+        "code": "13R",
+        "type": "CCG",
+        "name": "LONDON COMMISSIONING HUB",
+        "id": "13R"
+    },
+    {
+        "code": "13X",
+        "type": "CCG",
+        "name": "CUMBRIA AND NORTH EAST COMMISSIONING HUB",
+        "id": "13X"
+    },
+    {
+        "code": "13Y",
+        "type": "CCG",
+        "name": "CHESHIRE AND MERSEYSIDE COMMISSIONING HUB",
+        "id": "13Y"
+    },
+    {
+        "code": "14A",
+        "type": "CCG",
+        "name": "NORTH MIDLANDS COMMISSIONING HUB",
+        "id": "14A"
+    },
+    {
+        "code": "14C",
+        "type": "CCG",
+        "name": "WEST MIDLANDS COMMISSIONING HUB",
+        "id": "14C"
+    },
+    {
+        "code": "14D",
+        "type": "CCG",
+        "name": "CENTRAL MIDLANDS COMMISSIONING HUB",
+        "id": "14D"
+    },
+    {
+        "code": "14E",
+        "type": "CCG",
+        "name": "EAST COMMISSIONING HUB",
+        "id": "14E"
+    },
+    {
+        "code": "14F",
+        "type": "CCG",
+        "name": "SOUTH WEST COMMISSIONING HUB",
+        "id": "14F"
+    },
+    {
+        "code": "14G",
+        "type": "CCG",
+        "name": "SOUTH EAST COMMISSIONING HUB",
+        "id": "14G"
+    },
+    {
+        "code": "14H",
+        "type": "CCG",
+        "name": "SOUTH CENTRAL COMMISSIONING HUB",
+        "id": "14H"
+    },
+    {
+        "code": "02D",
+        "type": "CCG",
+        "name": "NHS VALE ROYAL CCG",
+        "id": "02D"
+    },
+    {
+        "code": "02F",
+        "type": "CCG",
+        "name": "NHS WEST CHESHIRE CCG",
+        "id": "02F"
+    },
+    {
+        "code": "02M",
+        "type": "CCG",
+        "name": "NHS FYLDE AND WYRE CCG",
+        "id": "02M"
+    },
+    {
+        "code": "02R",
+        "type": "CCG",
+        "name": "NHS BRADFORD DISTRICTS CCG",
+        "id": "02R"
+    },
+    {
+        "code": "06W",
+        "type": "CCG",
+        "name": "NHS NORWICH CCG",
+        "id": "06W"
+    },
+    {
+        "code": "08D",
+        "type": "CCG",
+        "name": "NHS HARINGEY CCG",
+        "id": "08D"
+    },
+    {
+        "code": "07R",
+        "type": "CCG",
+        "name": "NHS CAMDEN CCG",
+        "id": "07R"
+    },
+    {
+        "code": "02Y",
+        "type": "CCG",
+        "name": "NHS EAST RIDING OF YORKSHIRE CCG",
+        "id": "02Y"
+    },
+    {
+        "code": "03C",
+        "type": "CCG",
+        "name": "NHS LEEDS WEST CCG",
+        "id": "03C"
+    },
+    {
+        "code": "03E",
+        "type": "CCG",
+        "name": "NHS HARROGATE AND RURAL DISTRICT CCG",
+        "id": "03E"
+    },
+    {
+        "code": "03K",
+        "type": "CCG",
+        "name": "NHS NORTH LINCOLNSHIRE CCG",
+        "id": "03K"
+    },
+    {
+        "code": "03M",
+        "type": "CCG",
+        "name": "NHS SCARBOROUGH AND RYEDALE CCG",
+        "id": "03M"
+    },
+    {
+        "code": "08V",
+        "type": "CCG",
+        "name": "NHS TOWER HAMLETS CCG",
+        "id": "08V"
+    },
+    {
+        "code": "02N",
+        "type": "CCG",
+        "name": "NHS AIREDALE, WHARFEDALE AND CRAVEN CCG",
+        "id": "02N"
+    },
+    {
+        "code": "02Q",
+        "type": "CCG",
+        "name": "NHS BASSETLAW CCG",
+        "id": "02Q"
+    },
+    {
+        "code": "08Y",
+        "type": "CCG",
+        "name": "NHS WEST LONDON CCG",
+        "id": "08Y"
+    },
+    {
+        "code": "03N",
+        "type": "CCG",
+        "name": "NHS SHEFFIELD CCG",
+        "id": "03N"
+    },
+    {
+        "code": "08T",
+        "type": "CCG",
+        "name": "NHS SUTTON CCG",
+        "id": "08T"
+    },
+    {
+        "code": "10T",
+        "type": "CCG",
+        "name": "NHS SLOUGH CCG",
+        "id": "10T"
+    },
+    {
+        "code": "07T",
+        "type": "CCG",
+        "name": "NHS CITY AND HACKNEY CCG",
+        "id": "07T"
+    },
+    {
+        "code": "09D",
+        "type": "CCG",
+        "name": "NHS BRIGHTON AND HOVE CCG",
+        "id": "09D"
+    },
+    {
+        "code": "05A",
+        "type": "CCG",
+        "name": "NHS COVENTRY AND RUGBY CCG",
+        "id": "05A"
+    },
+    {
+        "code": "00Q",
+        "type": "CCG",
+        "name": "NHS BLACKBURN WITH DARWEN CCG",
+        "id": "00Q"
+    },
+    {
+        "code": "05L",
+        "type": "CCG",
+        "name": "NHS SANDWELL AND WEST BIRMINGHAM CCG",
+        "id": "05L"
+    },
+    {
+        "code": "03F",
+        "type": "CCG",
+        "name": "NHS HULL CCG",
+        "id": "03F"
+    },
+    {
+        "code": "02T",
+        "type": "CCG",
+        "name": "NHS CALDERDALE CCG",
+        "id": "02T"
+    },
+    {
+        "code": "04C",
+        "type": "CCG",
+        "name": "NHS LEICESTER CITY CCG",
+        "id": "04C"
+    },
+    {
+        "code": "04Y",
+        "type": "CCG",
+        "name": "NHS CANNOCK CHASE CCG",
+        "id": "04Y"
+    },
+    {
+        "code": "99G",
+        "type": "CCG",
+        "name": "NHS SOUTHEND CCG",
+        "id": "99G"
+    },
+    {
+        "code": "05W",
+        "type": "CCG",
+        "name": "NHS STOKE ON TRENT CCG",
+        "id": "05W"
+    },
+    {
+        "code": "07V",
+        "type": "CCG",
+        "name": "NHS CROYDON CCG",
+        "id": "07V"
+    },
+    {
+        "code": "10C",
+        "type": "CCG",
+        "name": "NHS SURREY HEATH CCG",
+        "id": "10C"
+    },
+    {
+        "code": "05X",
+        "type": "CCG",
+        "name": "NHS TELFORD AND WREKIN CCG",
+        "id": "05X"
+    },
+    {
+        "code": "03Q",
+        "type": "CCG",
+        "name": "NHS VALE OF YORK CCG",
+        "id": "03Q"
+    },
+    {
+        "code": "03W",
+        "type": "CCG",
+        "name": "NHS EAST LEICESTERSHIRE AND RUTLAND CCG",
+        "id": "03W"
+    },
+    {
+        "code": "02V",
+        "type": "CCG",
+        "name": "NHS LEEDS NORTH CCG",
+        "id": "02V"
+    },
+    {
+        "code": "04E",
+        "type": "CCG",
+        "name": "NHS MANSFIELD AND ASHFIELD CCG",
+        "id": "04E"
+    },
+    {
+        "code": "04G",
+        "type": "CCG",
+        "name": "NHS NENE CCG",
+        "id": "04G"
+    },
+    {
+        "code": "02X",
+        "type": "CCG",
+        "name": "NHS DONCASTER CCG",
+        "id": "02X"
+    },
+    {
+        "code": "03A",
+        "type": "CCG",
+        "name": "NHS GREATER HUDDERSFIELD CCG",
+        "id": "03A"
+    },
+    {
+        "code": "RH8",
+        "type": "CCG",
+        "name": null,
+        "id": "RH8"
+    },
+    {
+        "code": "ATK",
+        "type": "CCG",
+        "name": null,
+        "id": "ATK"
+    },
+    {
+        "code": "AVQ",
+        "type": "CCG",
+        "name": null,
+        "id": "AVQ"
+    },
+    {
+        "code": "NV1",
+        "type": "CCG",
+        "name": null,
+        "id": "NV1"
+    },
+    {
+        "code": "04H",
+        "type": "CCG",
+        "name": "NHS NEWARK AND SHERWOOD CCG",
+        "id": "04H"
+    },
+    {
+        "code": "06N",
+        "type": "CCG",
+        "name": "NHS HERTS VALLEYS CCG",
+        "id": "06N"
+    },
+    {
+        "code": "04J",
+        "type": "CCG",
+        "name": "NHS NORTH DERBYSHIRE CCG",
+        "id": "04J"
+    },
+    {
+        "code": "04R",
+        "type": "CCG",
+        "name": "NHS SOUTHERN DERBYSHIRE CCG",
+        "id": "04R"
+    },
+    {
+        "code": "02G",
+        "type": "CCG",
+        "name": "NHS WEST LANCASHIRE CCG",
+        "id": "02G"
+    },
+    {
+        "code": "00M",
+        "type": "CCG",
+        "name": "NHS SOUTH TEES CCG",
+        "id": "00M"
+    },
+    {
+        "code": "00Y",
+        "type": "CCG",
+        "name": "NHS OLDHAM CCG",
+        "id": "00Y"
+    },
+    {
+        "code": "04V",
+        "type": "CCG",
+        "name": "NHS WEST LEICESTERSHIRE CCG",
+        "id": "04V"
+    },
+    {
+        "code": "07M",
+        "type": "CCG",
+        "name": "NHS BARNET CCG",
+        "id": "07M"
+    },
+    {
+        "code": "08F",
+        "type": "CCG",
+        "name": "NHS HAVERING CCG",
+        "id": "08F"
+    },
+    {
+        "code": "08J",
+        "type": "CCG",
+        "name": "NHS KINGSTON CCG",
+        "id": "08J"
+    },
+    {
+        "code": "09J",
+        "type": "CCG",
+        "name": "NHS DARTFORD, GRAVESHAM AND SWANLEY CCG",
+        "id": "09J"
+    },
+    {
+        "code": "09N",
+        "type": "CCG",
+        "name": "NHS GUILDFORD AND WAVERLEY CCG",
+        "id": "09N"
+    },
+    {
+        "code": "05D",
+        "type": "CCG",
+        "name": "NHS EAST STAFFORDSHIRE CCG",
+        "id": "05D"
+    },
+    {
+        "code": "03L",
+        "type": "CCG",
+        "name": "NHS ROTHERHAM CCG",
+        "id": "03L"
+    },
+    {
+        "code": "03V",
+        "type": "CCG",
+        "name": "NHS CORBY CCG",
+        "id": "03V"
+    },
+    {
+        "code": "07G",
+        "type": "CCG",
+        "name": "NHS THURROCK CCG",
+        "id": "07G"
+    },
+    {
+        "code": "01A",
+        "type": "CCG",
+        "name": "NHS EAST LANCASHIRE CCG",
+        "id": "01A"
+    },
+    {
+        "code": "05F",
+        "type": "CCG",
+        "name": "NHS HEREFORDSHIRE CCG",
+        "id": "05F"
+    },
+    {
+        "code": "08A",
+        "type": "CCG",
+        "name": "NHS GREENWICH CCG",
+        "id": "08A"
+    },
+    {
+        "code": "08E",
+        "type": "CCG",
+        "name": "NHS HARROW CCG",
+        "id": "08E"
+    },
+    {
+        "code": "05G",
+        "type": "CCG",
+        "name": "NHS NORTH STAFFORDSHIRE CCG",
+        "id": "05G"
+    },
+    {
+        "code": "10E",
+        "type": "CCG",
+        "name": "NHS THANET CCG",
+        "id": "10E"
+    },
+    {
+        "code": "09A",
+        "type": "CCG",
+        "name": "NHS CENTRAL LONDON (WESTMINSTER) CCG",
+        "id": "09A"
+    },
+    {
+        "code": "05Q",
+        "type": "CCG",
+        "name": "NHS SOUTH EAST STAFFORDSHIRE AND SEISDON PENINSULA CCG",
+        "id": "05Q"
+    },
+    {
+        "code": "00C",
+        "type": "CCG",
+        "name": "NHS DARLINGTON CCG",
+        "id": "00C"
+    },
+    {
+        "code": "00L",
+        "type": "CCG",
+        "name": "NHS NORTHUMBERLAND CCG",
+        "id": "00L"
+    },
+    {
+        "code": "00N",
+        "type": "CCG",
+        "name": "NHS SOUTH TYNESIDE CCG",
+        "id": "00N"
+    },
+    {
+        "code": "05R",
+        "type": "CCG",
+        "name": "NHS SOUTH WARWICKSHIRE CCG",
+        "id": "05R"
+    },
+    {
+        "code": "00V",
+        "type": "CCG",
+        "name": "NHS BURY CCG",
+        "id": "00V"
+    },
+    {
+        "code": "01Y",
+        "type": "CCG",
+        "name": "NHS TAMESIDE AND GLOSSOP CCG",
+        "id": "01Y"
+    },
+    {
+        "code": "01D",
+        "type": "CCG",
+        "name": "NHS HEYWOOD, MIDDLETON AND ROCHDALE CCG",
+        "id": "01D"
+    },
+    {
+        "code": "01F",
+        "type": "CCG",
+        "name": "NHS HALTON CCG",
+        "id": "01F"
+    },
+    {
+        "code": "01H",
+        "type": "CCG",
+        "name": "NHS NORTH CUMBRIA CCG",
+        "id": "01H"
+    },
+    {
+        "code": "01W",
+        "type": "CCG",
+        "name": "NHS STOCKPORT CCG",
+        "id": "01W"
+    },
+    {
+        "code": "02E",
+        "type": "CCG",
+        "name": "NHS WARRINGTON CCG",
+        "id": "02E"
+    },
+    {
+        "code": "09P",
+        "type": "CCG",
+        "name": "NHS HASTINGS AND ROTHER CCG",
+        "id": "09P"
+    },
+    {
+        "code": "02H",
+        "type": "CCG",
+        "name": "NHS WIGAN BOROUGH CCG",
+        "id": "02H"
+    },
+    {
+        "code": "09X",
+        "type": "CCG",
+        "name": "NHS HORSHAM AND MID SUSSEX CCG",
+        "id": "09X"
+    },
+    {
+        "code": "02P",
+        "type": "CCG",
+        "name": "NHS BARNSLEY CCG",
+        "id": "02P"
+    },
+    {
+        "code": "02W",
+        "type": "CCG",
+        "name": "NHS BRADFORD CITY CCG",
+        "id": "02W"
+    },
+    {
+        "code": "11C",
+        "type": "CCG",
+        "name": "NHS WINDSOR, ASCOT AND MAIDENHEAD CCG",
+        "id": "11C"
+    },
+    {
+        "code": "11J",
+        "type": "CCG",
+        "name": "NHS DORSET CCG",
+        "id": "11J"
+    },
+    {
+        "code": "03G",
+        "type": "CCG",
+        "name": "NHS LEEDS SOUTH AND EAST CCG",
+        "id": "03G"
+    },
+    {
+        "code": "03Y",
+        "type": "CCG",
+        "name": "NHS HARDWICK CCG",
+        "id": "03Y"
+    },
+    {
+        "code": "07Q",
+        "type": "CCG",
+        "name": "NHS BROMLEY CCG",
+        "id": "07Q"
+    },
+    {
+        "code": "07Y",
+        "type": "CCG",
+        "name": "NHS HOUNSLOW CCG",
+        "id": "07Y"
+    },
+    {
+        "code": "04F",
+        "type": "CCG",
+        "name": "NHS MILTON KEYNES CCG",
+        "id": "04F"
+    },
+    {
+        "code": "01V",
+        "type": "CCG",
+        "name": "NHS SOUTHPORT AND FORMBY CCG",
+        "id": "01V"
+    },
+    {
+        "code": "04K",
+        "type": "CCG",
+        "name": "NHS NOTTINGHAM CITY CCG",
+        "id": "04K"
+    },
+    {
+        "code": "14M",
+        "type": "CCG",
+        "name": "LONDON - H&J COMMISSIONING HUB",
+        "id": "14M"
+    },
+    {
+        "code": "14N",
+        "type": "CCG",
+        "name": "YORKSHIRE AND HUMBER - H&J COMMISSIONING HUB",
+        "id": "14N"
+    },
+    {
+        "code": "14P",
+        "type": "CCG",
+        "name": "CUMBRIA AND NORTH EAST - H&J COMMISSIONING HUB",
+        "id": "14P"
+    },
+    {
+        "code": "14Q",
+        "type": "CCG",
+        "name": "NORTH MIDLANDS - H&J COMMISSIONING HUB",
+        "id": "14Q"
+    },
+    {
+        "code": "14R",
+        "type": "CCG",
+        "name": "EAST - H&J COMMISSIONING HUB",
+        "id": "14R"
+    },
+    {
+        "code": "14T",
+        "type": "CCG",
+        "name": "SOUTH WEST - H&J COMMISSIONING HUB",
+        "id": "14T"
+    },
+    {
+        "code": "14V",
+        "type": "CCG",
+        "name": "SOUTH EAST - H&J COMMISSIONING HUB",
+        "id": "14V"
+    },
+    {
+        "code": "14W",
+        "type": "CCG",
+        "name": "SOUTH CENTRAL - H&J COMMISSIONING HUB",
+        "id": "14W"
+    },
+    {
+        "code": "14X",
+        "type": "CCG",
+        "name": "LANCASHIRE - H&J COMMISSIONING HUB",
+        "id": "14X"
+    },
+    {
+        "code": "14Y",
+        "type": "CCG",
+        "name": "NHS BUCKINGHAMSHIRE CCG",
+        "id": "14Y"
+    },
+    {
+        "code": "15A",
+        "type": "CCG",
+        "name": "NHS BERKSHIRE WEST CCG",
+        "id": "15A"
+    },
+    {
+        "code": "04X",
+        "type": "CCG",
+        "name": "NHS BIRMINGHAM SOUTH AND CENTRAL CCG",
+        "id": "04X"
+    },
+    {
+        "code": "05H",
+        "type": "CCG",
+        "name": "NHS WARWICKSHIRE NORTH CCG",
+        "id": "05H"
+    },
+    {
+        "code": "10A",
+        "type": "CCG",
+        "name": "NHS SOUTH KENT COAST CCG",
+        "id": "10A"
+    },
+    {
+        "code": "10M",
+        "type": "CCG",
+        "name": "NHS NEWBURY AND DISTRICT CCG",
+        "id": "10M"
+    },
+    {
+        "code": "05Y",
+        "type": "CCG",
+        "name": "NHS WALSALL CCG",
+        "id": "05Y"
+    },
+    {
+        "code": "03R",
+        "type": "CCG",
+        "name": "NHS WAKEFIELD CCG",
+        "id": "03R"
+    },
+    {
+        "code": "07X",
+        "type": "CCG",
+        "name": "NHS ENFIELD CCG",
+        "id": "07X"
+    },
+    {
+        "code": "08K",
+        "type": "CCG",
+        "name": "NHS LAMBETH CCG",
+        "id": "08K"
+    },
+    {
+        "code": "08X",
+        "type": "CCG",
+        "name": "NHS WANDSWORTH CCG",
+        "id": "08X"
+    },
+    {
+        "code": "05T",
+        "type": "CCG",
+        "name": "NHS SOUTH WORCESTERSHIRE CCG",
+        "id": "05T"
+    },
+    {
+        "code": "05C",
+        "type": "CCG",
+        "name": "NHS DUDLEY CCG",
+        "id": "05C"
+    },
+    {
+        "code": "05V",
+        "type": "CCG",
+        "name": "NHS STAFFORD AND SURROUNDS CCG",
+        "id": "05V"
+    },
+    {
+        "code": "06D",
+        "type": "CCG",
+        "name": "NHS WYRE FOREST CCG",
+        "id": "06D"
+    },
+    {
+        "code": "08P",
+        "type": "CCG",
+        "name": "NHS RICHMOND CCG",
+        "id": "08P"
+    },
+    {
+        "code": "06F",
+        "type": "CCG",
+        "name": "NHS BEDFORDSHIRE CCG",
+        "id": "06F"
+    },
+    {
+        "code": "06H",
+        "type": "CCG",
+        "name": "NHS CAMBRIDGESHIRE AND PETERBOROUGH CCG",
+        "id": "06H"
+    },
+    {
+        "code": "06M",
+        "type": "CCG",
+        "name": "NHS GREAT YARMOUTH AND WAVENEY CCG",
+        "id": "06M"
+    },
+    {
+        "code": "04L",
+        "type": "CCG",
+        "name": "NHS NOTTINGHAM NORTH AND EAST CCG",
+        "id": "04L"
+    },
+    {
+        "code": "12A",
+        "type": "CCG",
+        "name": "NHS SOUTH GLOUCESTERSHIRE CCG",
+        "id": "12A"
+    },
+    {
+        "code": "12D",
+        "type": "CCG",
+        "name": "NHS SWINDON CCG",
+        "id": "12D"
+    },
+    {
+        "code": "14L",
+        "type": "CCG",
+        "name": "NHS MANCHESTER CCG",
+        "id": "14L"
+    },
+    {
+        "code": "06T",
+        "type": "CCG",
+        "name": "NHS NORTH EAST ESSEX CCG",
+        "id": "06T"
+    },
+    {
+        "code": "06V",
+        "type": "CCG",
+        "name": "NHS NORTH NORFOLK CCG",
+        "id": "06V"
+    },
+    {
+        "code": "06Y",
+        "type": "CCG",
+        "name": "NHS SOUTH NORFOLK CCG",
+        "id": "06Y"
+    },
+    {
+        "code": "07H",
+        "type": "CCG",
+        "name": "NHS WEST ESSEX CCG",
+        "id": "07H"
+    },
+    {
+        "code": "09C",
+        "type": "CCG",
+        "name": "NHS ASHFORD CCG",
+        "id": "09C"
+    },
+    {
+        "code": "07P",
+        "type": "CCG",
+        "name": "NHS BRENT CCG",
+        "id": "07P"
+    },
+    {
+        "code": "04M",
+        "type": "CCG",
+        "name": "NHS NOTTINGHAM WEST CCG",
+        "id": "04M"
+    },
+    {
+        "code": "01C",
+        "type": "CCG",
+        "name": "NHS EASTERN CHESHIRE CCG",
+        "id": "01C"
+    },
+    {
+        "code": "08Q",
+        "type": "CCG",
+        "name": "NHS SOUTHWARK CCG",
+        "id": "08Q"
+    },
+    {
+        "code": "07K",
+        "type": "CCG",
+        "name": "NHS WEST SUFFOLK CCG",
+        "id": "07K"
+    },
+    {
+        "code": "06K",
+        "type": "CCG",
+        "name": "NHS EAST AND NORTH HERTFORDSHIRE CCG",
+        "id": "06K"
+    },
+    {
+        "code": "07L",
+        "type": "CCG",
+        "name": "NHS BARKING AND DAGENHAM CCG",
+        "id": "07L"
+    },
+    {
+        "code": "07N",
+        "type": "CCG",
+        "name": "NHS BEXLEY CCG",
+        "id": "07N"
+    },
+    {
+        "code": "07W",
+        "type": "CCG",
+        "name": "NHS EALING CCG",
+        "id": "07W"
+    },
+    {
+        "code": "08C",
+        "type": "CCG",
+        "name": "NHS HAMMERSMITH AND FULHAM CCG",
+        "id": "08C"
+    },
+    {
+        "code": "08G",
+        "type": "CCG",
+        "name": "NHS HILLINGDON CCG",
+        "id": "08G"
+    },
+    {
+        "code": "08H",
+        "type": "CCG",
+        "name": "NHS ISLINGTON CCG",
+        "id": "08H"
+    },
+    {
+        "code": "08N",
+        "type": "CCG",
+        "name": "NHS REDBRIDGE CCG",
+        "id": "08N"
+    },
+    {
+        "code": "08L",
+        "type": "CCG",
+        "name": "NHS LEWISHAM CCG",
+        "id": "08L"
+    },
+    {
+        "code": "05J",
+        "type": "CCG",
+        "name": "NHS REDDITCH AND BROMSGROVE CCG",
+        "id": "05J"
+    },
+    {
+        "code": "08M",
+        "type": "CCG",
+        "name": "NHS NEWHAM CCG",
+        "id": "08M"
+    },
+    {
+        "code": "09E",
+        "type": "CCG",
+        "name": "NHS CANTERBURY AND COASTAL CCG",
+        "id": "09E"
+    },
+    {
+        "code": "08R",
+        "type": "CCG",
+        "name": "NHS MERTON CCG",
+        "id": "08R"
+    },
+    {
+        "code": "09G",
+        "type": "CCG",
+        "name": "NHS COASTAL WEST SUSSEX CCG",
+        "id": "09G"
+    },
+    {
+        "code": "09L",
+        "type": "CCG",
+        "name": "NHS EAST SURREY CCG",
+        "id": "09L"
+    },
+    {
+        "code": "09W",
+        "type": "CCG",
+        "name": "NHS MEDWAY CCG",
+        "id": "09W"
+    },
+    {
+        "code": "10D",
+        "type": "CCG",
+        "name": "NHS SWALE CCG",
+        "id": "10D"
+    },
+    {
+        "code": "10G",
+        "type": "CCG",
+        "name": "NHS BRACKNELL AND ASCOT CCG",
+        "id": "10G"
+    },
+    {
+        "code": "10H",
+        "type": "CCG",
+        "name": "NHS CHILTERN CCG",
+        "id": "10H"
+    },
+    {
+        "code": "10K",
+        "type": "CCG",
+        "name": "NHS FAREHAM AND GOSPORT CCG",
+        "id": "10K"
+    },
+    {
+        "code": "10L",
+        "type": "CCG",
+        "name": "NHS ISLE OF WIGHT CCG",
+        "id": "10L"
+    },
+    {
+        "code": "08W",
+        "type": "CCG",
+        "name": "NHS WALTHAM FOREST CCG",
+        "id": "08W"
+    },
+    {
+        "code": "10Q",
+        "type": "CCG",
+        "name": "NHS OXFORDSHIRE CCG",
+        "id": "10Q"
+    },
+    {
+        "code": "10R",
+        "type": "CCG",
+        "name": "NHS PORTSMOUTH CCG",
+        "id": "10R"
+    },
+    {
+        "code": "10V",
+        "type": "CCG",
+        "name": "NHS SOUTH EASTERN HAMPSHIRE CCG",
+        "id": "10V"
+    },
+    {
+        "code": "03X",
+        "type": "CCG",
+        "name": "NHS EREWASH CCG",
+        "id": "03X"
+    },
+    {
+        "code": "10Y",
+        "type": "CCG",
+        "name": "NHS AYLESBURY VALE CCG",
+        "id": "10Y"
+    },
+    {
+        "code": "11E",
+        "type": "CCG",
+        "name": "NHS BATH AND NORTH EAST SOMERSET CCG",
+        "id": "11E"
+    },
+    {
+        "code": "05P",
+        "type": "CCG",
+        "name": "NHS SOLIHULL CCG",
+        "id": "05P"
+    },
+    {
+        "code": "11T",
+        "type": "CCG",
+        "name": "NHS NORTH SOMERSET CCG",
+        "id": "11T"
+    },
+    {
+        "code": "11X",
+        "type": "CCG",
+        "name": "NHS SOMERSET CCG",
+        "id": "11X"
+    },
+    {
+        "code": "13P",
+        "type": "CCG",
+        "name": "NHS BIRMINGHAM CROSSCITY CCG",
+        "id": "13P"
+    },
+    {
+        "code": "14K",
+        "type": "CCG",
+        "name": "LANCASHIRE COMMISSIONING HUB",
+        "id": "14K"
+    },
+    {
+        "code": "15C",
+        "type": "CCG",
+        "name": "NHS BRISTOL, NORTH SOMERSET AND SOUTH GLOUCESTERSHIRE CCG",
+        "id": "15C"
+    },
+    {
+        "code": "15D",
+        "type": "CCG",
+        "name": "NHS EAST BERKSHIRE CCG",
+        "id": "15D"
+    },
+    {
+        "code": "15E",
+        "type": "CCG",
+        "name": "BIRMINGHAM AND SOLIHULL CCG",
+        "id": "15E"
+    },
+    {
+        "code": "15F",
+        "type": "CCG",
+        "name": "NHS LEEDS CCG",
+        "id": "15F"
+    },
+    {
+        "code": "15G",
+        "type": "CCG",
+        "name": "SOUTH WEST SOUTH COMMISSIONING HUB",
+        "id": "15G"
+    },
+    {
+        "code": "15H",
+        "type": "CCG",
+        "name": "SOUTH WEST NORTH COMMISSIONING HUB",
+        "id": "15H"
+    },
+    {
+        "code": "15J",
+        "type": "CCG",
+        "name": "HAMPSHIRE, ISLE OF WIGHT AND THAMES VALLEY COMMISSIONING HUB",
+        "id": "15J"
+    },
+    {
+        "code": "15K",
+        "type": "CCG",
+        "name": "KENT, SURREY AND SUSSEX COMMISSIONING HUB",
+        "id": "15K"
+    },
+    {
+        "code": "99A",
+        "type": "CCG",
+        "name": "NHS LIVERPOOL CCG",
+        "id": "99A"
+    },
+    {
+        "code": "99C",
+        "type": "CCG",
+        "name": "NHS NORTH TYNESIDE CCG",
+        "id": "99C"
+    },
+    {
+        "code": "06A",
+        "type": "CCG",
+        "name": "NHS WOLVERHAMPTON CCG",
+        "id": "06A"
+    },
+    {
+        "code": "04D",
+        "type": "CCG",
+        "name": "NHS LINCOLNSHIRE WEST CCG",
+        "id": "04D"
+    },
+    {
+        "code": "99D",
+        "type": "CCG",
+        "name": "NHS SOUTH LINCOLNSHIRE CCG",
+        "id": "99D"
+    },
+    {
+        "code": "99F",
+        "type": "CCG",
+        "name": "NHS CASTLE POINT AND ROCHFORD CCG",
+        "id": "99F"
+    },
+    {
+        "code": "99H",
+        "type": "CCG",
+        "name": "NHS SURREY DOWNS CCG",
+        "id": "99H"
+    },
+    {
+        "code": "99J",
+        "type": "CCG",
+        "name": "NHS WEST KENT CCG",
+        "id": "99J"
+    },
+    {
+        "code": "99M",
+        "type": "CCG",
+        "name": "NHS NORTH EAST HAMPSHIRE AND FARNHAM CCG",
+        "id": "99M"
+    },
+    {
+        "code": "99N",
+        "type": "CCG",
+        "name": "NHS WILTSHIRE CCG",
+        "id": "99N"
+    },
+    {
+        "code": "99Q",
+        "type": "CCG",
+        "name": "NHS SOUTH DEVON AND TORBAY CCG",
+        "id": "99Q"
+    },
+    {
+        "code": "09F",
+        "type": "CCG",
+        "name": "NHS EASTBOURNE, HAILSHAM AND SEAFORD CCG",
+        "id": "09F"
+    },
+    {
+        "code": "11D",
+        "type": "CCG",
+        "name": "NHS WOKINGHAM CCG",
+        "id": "11D"
+    },
+    {
+        "code": "09Y",
+        "type": "CCG",
+        "name": "NHS NORTH WEST SURREY CCG",
+        "id": "09Y"
+    },
+    {
+        "code": "10N",
+        "type": "CCG",
+        "name": "NHS NORTH AND WEST READING CCG",
+        "id": "10N"
+    },
+    {
+        "code": "04N",
+        "type": "CCG",
+        "name": "NHS RUSHCLIFFE CCG",
+        "id": "04N"
+    },
+    {
+        "code": "10W",
+        "type": "CCG",
+        "name": "NHS SOUTH READING CCG",
+        "id": "10W"
+    },
+    {
+        "code": "10X",
+        "type": "CCG",
+        "name": "NHS SOUTHAMPTON CCG",
+        "id": "10X"
+    },
+    {
+        "code": "04Q",
+        "type": "CCG",
+        "name": "NHS SOUTH WEST LINCOLNSHIRE CCG",
+        "id": "04Q"
+    },
+    {
+        "code": "11H",
+        "type": "CCG",
+        "name": "NHS BRISTOL CCG",
+        "id": "11H"
+    },
+    {
+        "code": "12F",
+        "type": "CCG",
+        "name": "NHS WIRRAL CCG",
+        "id": "12F"
+    },
+    {
+        "code": "99E",
+        "type": "CCG",
+        "name": "NHS BASILDON AND BRENTWOOD CCG",
+        "id": "99E"
+    },
+    {
+        "code": "99K",
+        "type": "CCG",
+        "name": "NHS HIGH WEALD LEWES HAVENS CCG",
+        "id": "99K"
+    },
+    {
+        "code": "00X",
+        "type": "CCG",
+        "name": "NHS CHORLEY AND SOUTH RIBBLE CCG",
+        "id": "00X"
+    },
+    {
+        "code": "13T",
+        "type": "CCG",
+        "name": "NHS NEWCASTLE GATESHEAD CCG",
+        "id": "13T"
+    },
+    {
+        "code": "10J",
+        "type": "CCG",
+        "name": "NHS NORTH HAMPSHIRE CCG",
+        "id": "10J"
+    }
+]

@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Bootstrap select -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+    <!-- Application scripts -->
+    <script src="clusters.js"></script>
+    <script src="costs.js"></script>
+    <script src="drugGroups.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div id="3DClusterVizDiv" style="height:500px" class="col-sm-9">
+                        <!-- Date fields place holder -->
+                    </div>
+                    <div class="col-sm-3">
+                        <div id="field_info">
+                            <ul class="list-group">
+                                <li class="list-group-item active">GP related information</li>
+                                <li class="list-group-item">
+                                    <b>Practice Code:</b><div id="practice_code"></div>
+                                    <button type="button" class="btn btn-primary" onclick="btnAddToFocus(this)">Add to Focus</button>
+                                    <button type="button" class="btn btn-primary" onclick="btnRemoveFocus(this)">Remove to Focus</button>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>PracticeName:</b><div id="name"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>TotalSize: </b><div id="totalSize"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Area Code and Name: </b><div id="areacode"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Average Age: </b> <div id="avgage"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>% aged 65+ years: </b> <div id="avg65age"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Diabetic Patient Count:</b> <div id="pcount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Hypertension Patient Count:</b><div id="hypPCount"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>IMD:</b> <div id="imd"> </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label class="control-label">X-Axis</label>
+                        <div class="selectContainer">
+                            <select id="xaxis_cols" class="form-control" name="xaxis">
+                                <!-- Place-holder for x-axis parameters from datasets -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="control-label">Y-Axis</label>
+                        <div class="selectContainer">
+                            <select id="yaxis_cols"  class="form-control" name="yaxis">
+                                <!-- Place-holder for y-axis parameters from datasets -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="control-label">DrugGroups</label>
+                        <div class="selectContainer">
+                            <select id="drug_groups" class="form-control" name="drugGroup">
+                                <!-- Place-holder for drug group parameters from datasets -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <br />
+                        <button type="button" class="btn btn-primary" onclick="btnUpdateParams(this)">Update</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="2DFilterdDiv"  style="height:500px"  class="col-sm-9">
+                    </div>
+                    <div class="col-sm-3">
+                        <div id="field_info">
+                            <ul class="list-group">
+                                <li class="list-group-item active">Costs related information</li>
+                                <li class="list-group-item">
+                                    <b>Drug Group:</b><div id="drug_group_name"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Items:</b><div id="items"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Quantity:</b><div id="quanity"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>NIC: </b><div id="nic"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>ACT COST: </b><div id="act_cost"> </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <b>Focus group: </b><br />
+                        <div id="focus_group" class="btn-group" role="group">
+                            <!-- Place-holder for practices selected for focus group -->
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <br />
+                        <button type="button" class="btn btn-primary" onclick="btnUpdateFocusSelection(this)">UpdateAll</button>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="control-label">DrugGroups</label>
+                        <div class="selectContainer">
+                            <select id="fg_drug_groups"  name="fgDrugGroup" data-width="auto" class="selectpicker" multiple  title="Choose required drug groups...">
+                                <!-- Place-holder for drug group parameters from datasets -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <br />
+                        <button type="button" class="btn btn-primary" onclick="btnUpdateDrugGroupSelection(this)">Update</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul class="list-group col-sm-9">
+                        <li class="list-group-item active">Detailed costs for each BNF Chapter
+                        </li>
+                    </ul>
+                    <div id="2DDetailedCostsDiv" style="height:400px" class="col-sm-9">
+                    </div>
+                    <!--<div class="col-sm-3">
+                        <div id="field_info">
+                            <ul class="list-group">
+                                <li class="list-group-item active">BNF sub-chapters information</li>
+                                <li class="list-group-item">
+                                    <b>Sub-chapter Level Details - TO BE DEVELOPED</b><div id="name"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Items:</b><div id="sub_ch_items"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Quantity:</b><div id="sub_ch_quanity"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>NIC: </b><div id="sub_ch_nic"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>ACT COST: </b><div id="sub_ch_act_cost"> </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </div>
+                <div class="row">
+                    <ul class="list-group col-sm-9">
+                        <li class="list-group-item active">Detailed costs for selected drug groups</li>
+                    </ul>
+                    <div id="2DSubChapterCostsDiv" style="height:400px" class="col-sm-9">
+                    </div>
+                    <!--<div class="col-sm-3">
+                        <div id="field_info">
+                            <ul class="list-group">
+                                <li class="list-group-item active">BNF sub-chapters information</li>
+                                <li class="list-group-item">
+                                    <b>Sub-chapter Level Details - TO BE DEVELOPED</b><div id="name"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Items:</b><div id="sub_ch_items"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Quantity:</b><div id="sub_ch_quanity"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>NIC: </b><div id="sub_ch_nic"> </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <b>ACT COST: </b><div id="sub_ch_act_cost"> </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>-->
+                </div>
+                </div>
+        </div>
+    </div>
+</body>
