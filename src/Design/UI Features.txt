@@ -1,0 +1,39 @@
+The probable list of features (with priority):
+
+Views:
+CCG View (1)
+GP View (1)
+CCG to CCG comparison view (2)
+CCG to GP comparison view (3)
+GP to GP comparison view (1)
+
+ 
+Each of the views will have follwinf data:
+Prescription cost overall (1)
+Prescription cost at
+- Drug-group level (as shared by Umesh) (1)
+- Chapter wise (1)
+
+Trends in the cost 
+- Specific month (1)
+-The whole year (2)
+
+Complementary datasets will be
+IMD (2)
+PHE Diabetes indicators (1)
+PHE CVD (cardiovascular) indicators (2)
+National baseline (mean) (2)
+
+GP View:
+ - Patient Profile
+   - Total Size
+   - Age groupds
+   - Average Age
+   - Diabetic patient count
+   - CVD patient count
+
+ - Practice Profile
+   - GP Count
+   - IMD
+   - Other indicators
+
